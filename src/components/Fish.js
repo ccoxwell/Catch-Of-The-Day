@@ -9,7 +9,7 @@ class Fish extends React.Component {
     const index = this.props.index
     return (
       <li className="menu-fish">
-        <img src={details.image} />
+        <img src={details.image} alt={details.name} />
         <h3 className="fish-name">
           {details.name}
         </h3>
